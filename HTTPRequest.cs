@@ -60,7 +60,7 @@ namespace DNWS
       if (statusLine[0].ToLower().Equals("get"))
       {
         _method = "GET";
-      } else if(!statusLine[0].ToLower().Equals("post")) {
+      } else if(statusLine[0].ToLower().Equals("post")) {
         _method = "POST";
        }else if (statusLine[0].ToLower().Equals("delete")) { //REF.600611005
         _method = "DELETE";
